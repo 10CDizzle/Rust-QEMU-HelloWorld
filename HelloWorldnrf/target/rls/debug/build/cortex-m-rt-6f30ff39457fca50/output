@@ -1,0 +1,3 @@
+cargo:rustc-link-search=c:\Users\Chris\Documents\GitHub\Rust-QEMU-HelloWorld\HelloWorldnrf\target\rls\debug\build\cortex-m-rt-6f30ff39457fca50\out
+cargo:rerun-if-changed=build.rs
+cargo:rerun-if-changed=link.x.in
