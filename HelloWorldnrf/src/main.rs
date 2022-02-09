@@ -1,3 +1,6 @@
+//Example hello world project for building for the microbit v1. Taken from GitHub User robyoung at
+//https://github.com/nrf-rs/microbit/blob/main/examples/serial-direct-helloworld/src/main.rs
+
 #![no_main]
 #![no_std]
 
@@ -18,6 +21,7 @@ fn main() -> ! {
         p.UART0.enable.write(|w| w.enable().enabled());
 
         let _ = write_uart0(&p.UART0, "Hello World!\n");
+        
     }
 
     loop {
