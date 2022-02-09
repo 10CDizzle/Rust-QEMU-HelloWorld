@@ -3,7 +3,7 @@
  
  It uses GitHub User nrf-rs's rust Crate microbit to build for the nRF51822 microbit v1. Additionally, uses the crates probe-run and flip-link (for stack overflow protection). 
 
-# How to run the binaries using QEMU:
+# How to run the premade binary using QEMU:
 
 1. Ensure that you have QEMU installed for your current platform (https://www.qemu.org/)
     -You will specifically be emulating an ARM platform, so make sure that this platform is installed.
@@ -16,7 +16,7 @@ For example, on my system running Windows, QEMU isn't added to path, so I'll ope
 
 `."C:\Program Files\qemu\qemu-system-arm.exe" -M microbit -device loader,file=hello_world_nrf`
 
-on other systems where you QEMU is installed, you might be able to get away with this:
+On other systems where you QEMU is installed, you might be able to get away with this:
 
 `qemu-system-arm -M microbit -device loader,file=hello_world_nrf`
 
