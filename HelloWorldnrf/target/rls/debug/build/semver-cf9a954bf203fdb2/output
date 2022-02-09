@@ -1,4 +1,0 @@
-cargo:rustc-cfg=no_str_strip_prefix
-cargo:rustc-cfg=no_track_caller
-cargo:rustc-cfg=no_unsafe_op_in_unsafe_fn_lint
-cargo:rustc-cfg=no_nonzero_bitscan

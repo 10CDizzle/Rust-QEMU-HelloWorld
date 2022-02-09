@@ -1,1 +1,0 @@
-{"rustc":16065624160775160083,"features":"","target":0,"profile":0,"path":0,"deps":[[17780687714086064638,"build_script_build",false,4407527858465800492]],"local":[{"RerunIfChanged":{"output":"debug\\build\\cortex-m-rt-f20d0fb4f70d8ac9\\output","paths":["build.rs","link.x.in"]}}],"rustflags":[],"metadata":0,"config":0,"compile_kind":0}

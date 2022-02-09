@@ -14,5 +14,4 @@ use rubble_nrf5x::utils::get_device_address;
 
 //Main entry point into program
 fn main() {
-    println!("Hello, world!");
 }
