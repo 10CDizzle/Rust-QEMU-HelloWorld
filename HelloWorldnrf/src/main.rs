@@ -13,7 +13,5 @@ use rubble_nrf5x::radio::{BleRadio, PacketBuffer};
 use rubble_nrf5x::utils::get_device_address;
 
 //Main entry point into program
-fn main() {fn () {
-    
-}
+fn main() {
 }
