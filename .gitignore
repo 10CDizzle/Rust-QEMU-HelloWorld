@@ -1,2 +1,3 @@
 
-HelloWorldnrf/target/debug/.fingerprint/as-slice-c49bbfdf36849cf2/dep-lib-as-slice
+HelloWorldnrf/
+HelloWorldnrf/target/**
