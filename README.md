@@ -16,7 +16,7 @@ For example, on my system running Windows, QEMU isn't added to path, so I'll ope
 
 `."C:\Program Files\qemu\qemu-system-arm.exe" -M microbit -device loader,file=hello_world_nrf`
 
-On other systems where you QEMU is installed, you might be able to get away with this:
+On other OSes where QEMU is installed, you might be able to also get away with this:
 
 `qemu-system-arm -M microbit -device loader,file=hello_world_nrf`
 
